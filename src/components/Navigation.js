@@ -14,6 +14,7 @@ function Navigation(props) {
                 <li> <Link to='/magical-tattoos'> Magical Tattoos </Link> </li>
                 <li> <Link to='/magic-armors'> Magic Armors </Link> </li>
                 <li> <Link to='/magic-weapons'> Magic Weapons </Link> </li>
+                <li> <Link to='/people'> People </Link> </li>
                 <li> <Link to='/potions'> Potions </Link> </li>
                 <li> <Link to='/rings'> Rings </Link> </li>
                 <li> <Link to='/rods'> Rods </Link> </li>

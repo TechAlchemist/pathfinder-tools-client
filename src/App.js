@@ -18,10 +18,12 @@ import StavesPage from './pages/StavesPage';
 import WeaponsBuilderPage from './pages/WeaponsBuilderPage';
 import WondrousItemsPage from './pages/WondrousItemsPage';
 
+import PeoplePage from './pages/PeoplePage';
+
 import Navigation from './components/Navigation';
 import './App.css';
 
-function Layout() {
+function App() {
   
   return (
     <>
@@ -37,6 +39,7 @@ function Layout() {
         <Route exact path='/magic-weapons' render={props => <MagicWeaponsPage />} />
         <Route exact path='/potions-calculator' render={props => <PotionsCalculator />} />
         <Route exact path='/potions' render={props => <PotionsPage />} />
+        <Route exact path='/people' render={props => <PeoplePage />} />
         <Route exact path='/rods' render={props => <RodsPage />} />
         <Route exact path='/rings' render={props => <RingsPage />} />
         <Route exact path='/scroll-cost-calculator' render={props => <ScrollCalculatorPage />} />
@@ -49,4 +52,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default App;
